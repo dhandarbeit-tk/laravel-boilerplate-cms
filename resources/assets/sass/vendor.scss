@@ -1,0 +1,10 @@
+//Fonts
+@import "~font-awesome/scss/font-awesome";
+
+// Variables
+@import "settings";
+
+@import "~foundation-sites/scss/foundation";
+@include foundation-everything;
+
+@import "~pikaday/scss/pikaday";
