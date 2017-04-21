@@ -1,0 +1,7 @@
+{
+  "packages": {
+    "germanhandwork/laravel-boilerplate-cms": {
+      "dev-master": { @composer.json }
+    }
+  }
+}
