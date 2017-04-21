@@ -180,6 +180,8 @@ return [
         Sentry\SentryLaravel\SentryLaravelServiceProvider::class,
 
         Collective\Html\HtmlServiceProvider::class,
+
+        TCG\Voyager\VoyagerServiceProvider::class,
     ],
 
     /*
