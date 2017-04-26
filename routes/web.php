@@ -11,10 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::get('/blog/{post}', [
+    'as' => 'post.view.get',
+    'uses' => 'PostsController@get_view'
+]);
+
+Route::get('/{page}', [
+    'as' => 'page.view.get',
+    'uses' => 'PagesController@get_view'
+]);
